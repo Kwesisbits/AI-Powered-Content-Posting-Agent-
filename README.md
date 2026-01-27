@@ -2,13 +2,13 @@
 
 
 
-# 🤖 AI Content Agent System
+# AI Content Agent System
 
 A production-ready AI-powered content creation and social media posting platform with human-in-the-loop approvals, emergency controls, and local-first AI processing.
 
-## 🚀 Features
+## Features
 
-### 🧠 **AI Content Generation**
+### **AI Content Generation**
 - **Local LLM Integration**: Uses Ollama with Gemma 7B (no API costs)
 - **Platform-Specific Templates**: LinkedIn, Instagram, Twitter/X
 - **Brand Voice Enforcement**: Configurable tone, style, and guidelines
@@ -28,7 +28,7 @@ A production-ready AI-powered content creation and social media posting platform
 - **Scheduling Calendar**: Visual post scheduling
 - **Analytics Dashboard**: Mock engagement metrics
 
-## 🏗️ Architecture
+##  Architecture
 
 
 ┌─────────────────────────────────────────────────┐
@@ -55,7 +55,7 @@ A production-ready AI-powered content creation and social media posting platform
 └─────────────────────────────────────────────────┘
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### **Backend**
 - **Framework**: FastAPI (Python 3.11+)
@@ -77,7 +77,7 @@ A production-ready AI-powered content creation and social media posting platform
 - **Monitoring**: Health checks, structured logging
 - **CI/CD**: GitHub Actions ready
 
-## 📦 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Docker & Docker Compose
@@ -103,7 +103,7 @@ docker-compose up -d
 - **API Docs**: http://localhost:8000/docs
 - **Ollama**: http://localhost:11434
 
-## 🎯 Demo Credentials
+##  Demo Credentials
 
 
 Email: admin@demo.com
@@ -116,7 +116,7 @@ Email: client@demo.com
 Password: demo123
 ```
 
-## 🎬 Demo Script
+##  Demo Script
 
 ### 1. **Media Upload & AI Generation** (0-3 min)
 1. Login as `client@demo.com`
@@ -147,7 +147,7 @@ Password: demo123
 - Explain local vs cloud AI strategy
 - Demonstrate extensibility points
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-content-agent-system/
@@ -209,7 +209,7 @@ JWT_SECRET_KEY=your-secret-key-change-in-production
 NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
 ```
 
-## 📊 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -223,7 +223,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
 
 See full API documentation at http://localhost:8000/docs
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Backend tests
@@ -238,7 +238,7 @@ npm test
 npm run test:e2e
 ```
 
-## 🐳 Docker Commands
+##  Docker Commands
 
 ```bash
 # Build and start all services
@@ -263,7 +263,7 @@ docker-compose exec backend alembic upgrade head
 docker-compose exec backend python scripts/create_sample_data.py
 ```
 
-## 🔄 Workflow States
+##  Workflow States
 
 ```
 Draft → Pending Review → [Approve/Reject/Request Changes]
@@ -273,7 +273,7 @@ Draft → Pending Review → [Approve/Reject/Request Changes]
      Rejected → Archived
 ```
 
-## 🚨 Emergency Controls
+##  Emergency Controls
 
 ### **Instant Pause**
 - Immediately halts all automated actions
@@ -291,7 +291,7 @@ Draft → Pending Review → [Approve/Reject/Request Changes]
 - Sends notifications to admins
 - Requires manual reset to resume
 
-## 📈 Production Deployment
+##  Production Deployment
 
 ### Railway (Recommended)
 ```bash
@@ -313,7 +313,7 @@ REDIS_URL=redis://redis:6379
 SENTRY_DSN=your-sentry-dsn
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -321,18 +321,18 @@ SENTRY_DSN=your-sentry-dsn
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Ollama** for providing easy local LLM serving
 - **Google** for Gemma models
 - **FastAPI** and **Next.js** teams for amazing frameworks
 
 
-## 📞 Support
+##  Support
 
 For issues and questions:
 1. Check [Troubleshooting](docs/TROUBLESHOOTING.md)
