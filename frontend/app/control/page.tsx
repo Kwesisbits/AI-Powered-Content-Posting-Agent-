@@ -42,13 +42,13 @@ export default function ControlPage() {
   }
 
   const handleEmergencyPause = () => {
-    if (confirm('⚠️ EMERGENCY PAUSE\n\nThis will immediately halt all automation. Are you sure?')) {
+    if (confirm(' EMERGENCY PAUSE\n\nThis will immediately halt all automation. Are you sure?')) {
       handleControlAction('pause', 'Emergency pause initiated')
     }
   }
 
   const handleCrisisMode = () => {
-    if (confirm('🚨 CRISIS MODE ACTIVATION\n\nThis will:\n1. Halt all automation\n2. Cancel scheduled posts\n3. Notify all admins\n4. Require manual reset\n\nAre you sure?')) {
+    if (confirm(' CRISIS MODE ACTIVATION\n\nThis will:\n1. Halt all automation\n2. Cancel scheduled posts\n3. Notify all admins\n4. Require manual reset\n\nAre you sure?')) {
       handleControlAction('set_crisis', 'Crisis mode activated')
     }
   }
