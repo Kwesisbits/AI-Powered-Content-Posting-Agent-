@@ -325,4 +325,32 @@ export default function NewContentPage() {
                     </div>
                     <div className="flex items-start gap-2">
                       <div className="h-2 w-2 bg-pink-500 rounded-full mt-2"></div>
-                      <p className="text-sm">Call to action in
+                      <p className="text-sm">Call to action in first comment</p>
+                    </div>
+                  </>
+                )}
+                
+                {platform === 'twitter' && (
+                  <>
+                    <div className="flex items-start gap-2">
+                      <div className="h-2 w-2 bg-sky-500 rounded-full mt-2"></div>
+                      <p className="text-sm">Concise (under 280 characters)</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="h-2 w-2 bg-sky-500 rounded-full mt-2"></div>
+                      <p className="text-sm">Engage with current trends</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="h-2 w-2 bg-sky-500 rounded-full mt-2"></div>
+                      <p className="text-sm">Use 2-3 relevant hashtags</p>
+                    </div>
+                  </>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
