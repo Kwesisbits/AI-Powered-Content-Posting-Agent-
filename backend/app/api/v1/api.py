@@ -4,7 +4,7 @@ API router configuration.
 from fastapi import APIRouter
 
 from app.api.v1.endpoints import (
-    auth, content, media, approval, control, posts, analytics
+    auth, content, media, approval, control, posts, analytics, brand_voice
 )
 
 api_router = APIRouter()
@@ -17,3 +17,4 @@ api_router.include_router(approval.router, prefix="/approval", tags=["approval"]
 api_router.include_router(control.router, prefix="/control", tags=["control"])
 api_router.include_router(posts.router, prefix="/posts", tags=["posts"])
 api_router.include_router(analytics.router, prefix="/analytics", tags=["analytics"])
+api_router.include_router(brand_voice.router, prefix="/brand-voice", tags=["brand-voice"])
