@@ -1,7 +1,7 @@
 # AI-Powered-Content-Posting-Agent-
 
 
-```
+
 # 🤖 AI Content Agent System
 
 A production-ready AI-powered content creation and social media posting platform with human-in-the-loop approvals, emergency controls, and local-first AI processing.
@@ -30,7 +30,7 @@ A production-ready AI-powered content creation and social media posting platform
 
 ## 🏗️ Architecture
 
-```
+
 ┌─────────────────────────────────────────────────┐
 │               Frontend (Next.js)                │
 │  • React 18 + TypeScript + Tailwind CSS        │
@@ -53,7 +53,7 @@ A production-ready AI-powered content creation and social media posting platform
 │  • Emergency Control System                     │
 │  • Media Analysis & Processing                  │
 └─────────────────────────────────────────────────┘
-```
+
 
 ## 🛠️ Tech Stack
 
@@ -105,7 +105,7 @@ docker-compose up -d
 
 ## 🎯 Demo Credentials
 
-```
+
 Email: admin@demo.com
 Password: demo123
 
