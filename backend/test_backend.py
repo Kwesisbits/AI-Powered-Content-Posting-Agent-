@@ -170,7 +170,7 @@ async def test_control_system():
         
         # Get initial status
         status = system_controls.get_status()
-        print(f"✓ Control system initialized")
+        print(f"  Control system initialized")
         print(f"  Current Mode: {status['mode']}")
         print(f"  Paused: {status['is_paused']}")
         print(f"  Can Auto-approve: {status['can_auto_approve']}")
@@ -229,7 +229,7 @@ async def test_api_health():
 
 async def run_all_tests():
     """Run all tests."""
-    print("🚀 Starting AI Content Agent System Tests")
+    print("Starting AI Content Agent System Tests")
     print("="*60)
     
     results = {
@@ -262,9 +262,9 @@ async def run_all_tests():
     all_passed = all(r for r in results.values() if isinstance(r, bool))
     
     if all_passed:
-        print("\n✅ All tests passed! System is ready.")
+        print("\n All tests passed! System is ready.")
     else:
-        print("\n⚠ Some tests failed. Check the logs above.")
+        print("\n Some tests failed. Check the logs above.")
     
     return all_passed
 
